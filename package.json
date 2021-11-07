@@ -3,9 +3,11 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "dev": "nodemon app.js",
-        "client": "nodemon app.js",
-        "start": "nodemon app.js"
+        "start": "node ./bin/www",
+        "devstart": "nodemon ./bin/www"
+    },
+    "engines": {
+        "node": "12.x"
     },
     "dependencies": {
         "body-parser": "^1.19.0",
