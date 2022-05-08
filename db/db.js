@@ -1,8 +1,8 @@
 const mysql = require("mysql");
 
 exports.db = mysql.createPool({
-    host: "remotemysql.com",
-    user: "zignKx7qAi",
-    password: "gZU9NU0Tza",
-    database: "zignKx7qAi",
+  host: "sql10.freemysqlhosting.net",
+  user: "sql10490970",
+  password: "Qfn7FzC24P",
+  database: "sql10490970",
 });
